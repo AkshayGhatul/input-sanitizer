@@ -31,7 +31,7 @@ Setup
         # remove all tags from input
         BLEACH_STRIP_TAGS = True
 
-        # remove comments, or leave them in
+        # remove comments, or allow them in
         BLEACH_STRIP_COMMENTS = True
 
 
@@ -86,7 +86,7 @@ Please, refer to `bleach`_ documentation for their use:
 * ``strip_comments``: Remove comments from data
 * ``strip_tags``: Remove all tags from data
 
-``SanitizedCharField`` and ``SanitizedTextField`` fields will return validation errors if these fields are required. You can provide following arguments to customize error messages. ``f_name`` takes precedence over ``f_name`` while returning error message.
+``SanitizedCharField`` and ``SanitizedTextField`` fields will return validation errors if these fields are required. You can provide following arguments to customize error messages. ``FIELD_ERROR`` takes precedence over ``FIELD_NAME`` while returning error message.
 
 * ``FIELD_ERROR``: Error message
 * ``FIELD_NAME``: Field name
@@ -117,7 +117,7 @@ Please, refer to `bleach`_ documentation for their use:
 * ``strip_comments``: Remove comments from data
 * ``strip_tags``: Remove all tags from data
 
-``SanitizedCharField`` and ``SanitizedTextField`` fields will return validation errors if these fields are required. You can provide following arguments to customize error messages. ``f_name`` takes precedence over ``f_name`` while returning error message.
+``SanitizedCharField`` and ``SanitizedTextField`` fields will return validation errors if these fields are required. You can provide following arguments to customize error messages. ``FIELD_ERROR`` takes precedence over ``FIELD_NAME`` while returning error message.
 
 * ``FIELD_ERROR``: Error message
 * ``FIELD_NAME``: Field name

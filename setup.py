@@ -10,7 +10,7 @@ project_urls={
 setup(
     name='input sanitizer',
     packages=find_packages(include=['input_sanitizer']),
-    version='0.2.2',
+    version='0.2.3',
     description='Sanitizes input data to prevent XSS i.e. cross site scripting attacks.',
     license='MIT',
     author='Akshay Ghatul',
